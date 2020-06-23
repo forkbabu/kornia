@@ -2,14 +2,14 @@
 
 ## NOTE: define KORNIA_BUILD_VERSION each release
 ## KORNIA_BUILD_VERSION=0.3.0
-## PYTORCH_VERSION=1.5.0
+## PYTORCH_VERSION=1.5.1
 
 export OUT_DIR="/tmp/remote"
 
 # move to project root and create the wheel
 cd /tmp
 rm -rf kornia/
-git clone https://github.com/kornia/kornia.git
+git clone https://github.com/forkbabu/kornia.git
 
 cd /tmp/kornia
 git checkout v$KORNIA_BUILD_VERSION
